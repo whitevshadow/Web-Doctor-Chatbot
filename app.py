@@ -56,7 +56,6 @@ def chatbot_response(msg):
 
     except:
         print("Response from Bard")
-        # Bard(msg)
         bard = Bard(msg)
         return bard
 
